@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Resume Website</title>
+    <link href="style1.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="img-area">
+                <img src="C:/Users/Afree/OneDrive/Desktop/sudeep.jpg">
+                <img sizes="lenght=100">
+            
+            </div>
+            <h1>Sudeep</h1>
+            <h3>Full Stack Web Developer</h3>
+        </div>
+       <div class="main">
+        <div class="left">
+            <h2>Personal information</h2>
+            <p><strong>Name</strong>Sudeep</p>
+            <p><strong>Age</strong>20<sudeep123@gmail.com</p>
+            <p><strong>Phone</strong>9632985262</p>
+            <h2>Skills</h2>
+            <ul>
+               <li>HTML/CSS</li>
+               <li>Javascript</li>
+               <li>React</li>
+               <li>Node.js</li>
+               <li>SQL</li>
+            </ul>
+            <h2>Education</h2>
+            <h3>2nd puc</h3>
+            <p>govt puc cllge </p><br>
+            <h3>Computer Science Engeering</h3>
+            <p>Kalpataru Institute Of Technology , 2020-2025 </p><br>
+        </div>
+        <div class="right">
+            <h2>Work Experience</h2>
+            <h3>XYZ Company</h3>
+            <p><strong>Position:</strong>Software Developer</p>
+            <p><strong>Duration:</strong>2020-2025</p>
+            <ul>
+                <li>Developed and Maintained web applications using React,Node.js,and SQL</li>
+                <li> Implemented responsive design using CSS flexbox and media queries</li>
+                <li> Collaboration with cross-functional teams to deliver high-quality software procducts</li>
+            </ul><br>
+            <h3> ABC Company</h3>
+            <p><p><strong>Position:</strong>Web Developer</p>
+            <p><strong>Duration:</strong>2020-2022</p></p>
+            <ul>
+                <li>Created and Maintained websites using HTML,CSS, and JavaScript</li>
+                <li>Optimized website performance and user Experience using best practice</li>
+                <li>Worked with clients to undertand their needs and deliver custom solutions</li>
+            </ul>
+        </div>
+       </div>
+    </div>
+    <script>
+        function toggleSkills() {
+            var skillsSection = document.getElementById("skillsSection");
+            skillsSection.style.display = (skillsSection.style.display === 'none' || skillsSection.style.display === '') ? 'block' : 'none';
+        }
+    </script>
+</body>
+</html>
